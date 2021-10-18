@@ -91,7 +91,7 @@ inquirer.prompt([
         }
 
         // Using the fs package to create and write a markdown file with user's input using template literals.
-        fs.writeFile('README.md', 
+        fs.writeFile('./output/README.md', 
 `# ${title} ${lic}
 
 ## Description
