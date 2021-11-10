@@ -4,7 +4,6 @@
 This app was designed to help developers easily create quality README files for their projects via command line. Creating it was fun and fairly simple!
 
 ## Table of Contents
-- [README Generator ![License: WTFPL](http://www.wtfpl.net/about/)](#readme-generator-)
   - [Description](#description)
   - [Table of Contents](#table-of-contents)
   - [Installation](#installation)
