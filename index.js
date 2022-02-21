@@ -121,7 +121,7 @@ ${licDescr}
 ${test}
 
 ## Questions
-If you have any questions, please visit my GitHub profile or email me using the links below
+If you have any questions, please visit my GitHub profile or email me using the links below:
 
 [Github](https://github.com/${git})  
 [Email](mailto:${email})`, (err) =>
