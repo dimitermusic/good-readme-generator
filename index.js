@@ -91,8 +91,8 @@ inquirer.prompt([
         }
 
         // Using the fs package to create and write a markdown file with user's input using template literals.
-        fs.writeFile('./output/README.md', 
-`# ${title} ${lic}
+        fs.writeFile('./output/README.md',
+            `# ${title} ${lic}
 
 ## Description
 ${descr}
@@ -121,9 +121,9 @@ ${licDescr}
 ${test}
 
 ## Questions
-If you have any questions, please visit my Github profile or email me using the links below
+If you have any questions, please visit my GitHub profile or email me using the links below
 
-[Github](https://github.com/${git})
+[Github](https://github.com/${git})  
 [Email](mailto:${email})`, (err) =>
             // Turner function to display a message whether there was an error or the file was successfully written.
             err ? console.error(err) : console.log('README.md successfully written!')
